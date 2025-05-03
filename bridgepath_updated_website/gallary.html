@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Picha / Gallery - BridgePath</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 20px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo BridgePath Tz.png" alt="BridgePath Logo" class="logo" />
+    <h1>BridgePath Education Initiative Tanzania</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Nyumbani / Home</a></li>
+        <li><a href="about.html">Kuhusu Sisi / About Us</a></li>
+        <li><a href="projects.html">Miradi / Projects</a></li>
+        <li><a href="partners.html">Wadau / Partners</a></li>
+        <li><a href="gallery.html" class="active">Picha / Gallery</a></li>
+        <li><a href="contact.html">Mawasiliano / Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Picha / Gallery</h2>
+      <p>Hapa ni baadhi ya picha kutoka kwenye shughuli na matukio ya BridgePath:</p>
+
+      <div class="gallery">
+        <img src="photo1.jpg" alt="Shughuli ya elimu 1" />
+        <img src="photo2.jpg" alt="Shughuli ya jamii 2" />
+        <img src="photo3.jpg" alt="Washiriki wa mradi" />
+        <!-- Ongeza picha zaidi hapa -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BridgePath Education Initiative Tanzania. All rights reserved.</p>
+  </footer>
+</body>
+</html>

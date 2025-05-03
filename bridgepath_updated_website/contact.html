@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mawasiliano / Contact - BridgePath</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo BridgePath Tz.png" alt="BridgePath Logo" class="logo" />
+    <h1>BridgePath Education Initiative Tanzania</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Nyumbani / Home</a></li>
+        <li><a href="about.html">Kuhusu Sisi / About Us</a></li>
+        <li><a href="projects.html">Miradi / Projects</a></li>
+        <li><a href="partners.html">Wadau / Partners</a></li>
+        <li><a href="gallery.html">Picha / Gallery</a></li>
+        <li><a href="contact.html" class="active">Mawasiliano / Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <h2>Wasiliana Nasi</h2>
+      <p>Jaza fomu hapa chini au tutumie barua pepe moja kwa moja.</p>
+
+      <form action="mailto:bridgepatheducationinitiativet@gmail.com" method="POST" enctype="text/plain">
+        <label for="name">Jina / Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Barua pepe / Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Ujumbe / Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Tuma / Send</button>
+      </form>
+
+      <h3>Au wasiliana moja kwa moja:</h3>
+      <ul>
+        <li><strong>Email:</strong> bridgepatheducationinitiativet@gmail.com</li>
+        <li><strong>Simu:</strong> +255 679 432 307</li>
+        <li><strong>Anwani:</strong> Dumila, Morogoro, Tanzania</li>
+      </ul>
+<section class="contact-form">
+  <h2>Maoni / Feedback</h2>
+  <p>Tupatie maoni yako kuhusu huduma au mtazamo wa tovuti yetu:</p>
+
+  <form action="mailto:bridgepatheducationinitiativet@gmail.com" method="POST" enctype="text/plain">
+    <label for="feedback">Maoni Yako:</label>
+    <textarea id="feedback" name="feedback" rows="5" required></textarea>
+    <button type="submit">Tuma Maoni</button>
+  </form>
+</section>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 BridgePath Education Initiative Tanzania. All rights reserved.</p>
+  </footer>
+</body>
+</html>
